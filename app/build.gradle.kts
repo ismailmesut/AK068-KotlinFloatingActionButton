@@ -7,6 +7,10 @@ android {
     namespace = "com.ismailmesutmujde.kotlinfloatingactionbutton"
     compileSdk = 34
 
+    buildFeatures {
+        viewBinding = true
+    }
+
     defaultConfig {
         applicationId = "com.ismailmesutmujde.kotlinfloatingactionbutton"
         minSdk = 24
